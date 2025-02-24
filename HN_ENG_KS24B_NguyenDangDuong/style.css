@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+li{
+    padding-left: 10px;
+}
+nav{
+    margin: 25px 50px 25px 50px;
+}
+.navbar-img{
+    display: none;
+}
+.img-head{
+    width: 100%;
+}
+header{
+    display: flex;
+    margin-bottom: 100px;
+}
+.text-header{
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+.Skills-Section{
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+.Skills-Section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height: 328px;
+}
+.Works-Section{
+    display: flex;
+    flex-wrap: wrap ;
+    height: auto;   
+    width: 100%;
+    justify-content: space-around;    
+    margin-top: 60px;
+    
+}
+main{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.work{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: calc(30% - 0px);
+}
+.work img{
+    margin-bottom: 10px;
+}
+.content-footer{
+    width: 50%;
+}
+.text-footer{
+    text-align: left;
+    width: 50%;
+}
+.text-input{
+    background-color: #F3F3F3;
+    width: 530px;
+    height: 69px;
+    margin-bottom: 20px;
+    border: none;
+}
+textarea{
+    background-color: #F3F3F3;
+    width: 530px;
+    height: 231px;
+    margin-bottom: 20px;
+    border: none;
+}
+.button{
+    width: 235px;
+    height: 80px;
+    color: white;
+    background-color: #2D2D2D;
+    margin-top: 45px;
+    border: none;
+    font-size: 25px;
+}
+input::placeholder{
+    padding-left: 30px;
+    color: black;
+}
+textarea::placeholder{
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 30px;
+    color: black;
+}
+.img-footer{
+    margin: 10px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+footer{
+    margin-top: 70px;
+}
+@media screen and (max-width: 768px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .text-header{
+        font-size: 60px;
+    }
+    .Skills-Section{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .Skills-Section div{
+        width: 249px;
+        height: 328px;
+    }
+    .Works-Section{
+        margin-top: 30px;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    main{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .work{
+        width: calc(100% - 10px);
+        height: auto; 
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .content-footer{
+        width: 100%;
+    }
+    .text-footer{
+        width: 100%;
+    }
+    .button{
+        width: 235px;
+        height: 70px;
+        color: white;
+        background-color: #2D2D2D;
+        margin-top: 45px;
+        border: none;
+    }
+    .navbar-img{
+        display: block;
+        width: 25px;
+        height: 23px;
+        margin-right: 50px;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+    }
+    .navbar-text{
+        display: none;
+    }
+    ul{
+        display: none;
+    }
+    
+}
